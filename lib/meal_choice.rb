@@ -7,8 +7,8 @@ def meal_choice(veg1, veg2, protein = "meat")
   meal_string = "A plate of #{protein} with #{veg1} and #{veg2}."
 end
 
-veg1 = pie 
-veg2 = rocks
-protein = fish
+veg1 = "pie" 
+veg2 = "rocks"
+protein = "fish"
 
 meal_choice(veg1, veg2)
